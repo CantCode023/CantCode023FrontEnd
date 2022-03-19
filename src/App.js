@@ -9,6 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 
 function App() {
+  // updating app.js for heroku deploy lol
   const [darkmode, setDarkmode] = useState(() => {
     try {
       const value = localStorage.getItem("darkmode")
