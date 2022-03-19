@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/Navbar.js'
 import Home from './components/Home.js'
+import Discussion from './components/Discussion.js'
 import SignUp from './components/SignUp.js';
 import Login from './components/Login.js'
 import ErrorPage from "./components/404.js";
@@ -44,9 +45,10 @@ function App() {
         <NavBar darkmode={darkmode} changeTheme={changeTheme}/>
         <Switch>
           <Route exact path="/" component={() => <Home darkmode={darkmode}/>}/>
-          <Route exact path="/signup" component={SignUp}/>
-          <Route exact path="/login" component={Login}/>
-          <Route component={ErrorPage}/>
+          <Route exact path="/discussions" component={Discussion}/>
+          <Route exact path="/signup" component={() => <SignUp darkmode={darkmode}/>}/>
+          <Route exact path="/login" component={() => <Login darkmode={darkmode}/>}/>
+          <Route component={() => <ErrorPage darkmode={darkmode}/>}/>
         </Switch>
       </Router>
     </div>

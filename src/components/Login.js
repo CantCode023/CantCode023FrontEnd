@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Form, Button, Card, Container } from 'react-bootstrap'
 
-export default function Login() {
+export default function Login({ darkmode }) {
     const emailRef = useRef();
     const passwordRef = useRef();
 
@@ -25,7 +25,7 @@ export default function Login() {
                     </Form>
                 </Card.Body>
             </Card>
-            <div className="w-100 text-center mt-2">
+            <div className={`w-100 text-center mt-2 ${darkmode?"text-white":"text-black"}`}>
                 Don't have an account? <a href="/signup">Sign up.</a>
             </div>
         </Container>

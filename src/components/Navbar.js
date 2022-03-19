@@ -13,6 +13,7 @@ export default function NavBar({ changeTheme, darkmode }) {
                 <Nav className="me-auto"/>
                 <Nav>
                     <Nav.Link className={darkmode?"text-white":"text-black"} href="/projects">Projects</Nav.Link>
+                    <Nav.Link className={darkmode?"text-white":"text-black"} href="/discussions">Discussions</Nav.Link>
                     <Nav.Link className={darkmode?"text-white":"text-black"} href="/contact">Contact</Nav.Link>
                     <Navbar.Text className={darkmode ? 'text-white':'text-black'}>
                         <button onClick={changeTheme} style={{backgroundColor: "rgba(255,255,255,0)", border: "none"}}><FontAwesomeIcon className={`ms-sm-2 ms-0 mb-sm-0 mb-2 ${darkmode ? 'text-white':'text-black'}`} icon={darkmode ? faSun:faMoon} id='okok'/></button>
