@@ -66,5 +66,5 @@ export default function Footer({ darkmode }) {
         <a className={`text-decoration-none ${darkmode ? 'text-light':'text-light'}`} href='https://cantcode023.github.io/FollowCantCode/'> CantCode </a>
       </div>
     </MDBFooter> 
-  );
+   );
 }
