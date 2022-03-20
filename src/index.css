@@ -10,21 +10,46 @@
   padding-bottom: 10rem!important;
 }
 
+.IMAGEPOS {
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+  max-height: 480px;
+}
+
+.ABOUT {
+  margin-right: 0;
+}
+
+.ABOUT1 {
+  width: 100%;
+}
+
 @media screen and (min-width: 1024px) {
   .disquswidth {
+    position: relative;
     min-width: 50%;
+  }
+
+  .IMAGEPOS {
+    max-width: 480px;
+    max-height: 480px;
+    position: relative;
+    left: 0;
+  }
+
+  .ABOUT {
+    /* padding-right: 15rem; */
+    width: 60%;
+  }
+
+  .ABOUT1 {
+    width: 50%;
   }
 }
 
 body {
   margin: 0;
-  font-family: "Secular One", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: "Secular One", sans-serif;
-}
-
-/* @import '~mdb-ui-kit/css/mdb.min.css'; */

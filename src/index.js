@@ -6,11 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Auth0Provider } from '@auth0/auth0-react'
 
-const domain = process.env.auth0domain;
-const clientId = process.env.auth0clientid;
-
 ReactDOM.render(
-  <Auth0Provider domain={domain} clientId={clientId} redirectUri={window.location.origin}>
+  <Auth0Provider domain={"dev-x0arzk7f.us.auth0.com"} clientId={"lLaeyS1HlzmJtffNKPIJeul3LEGo7RpC"} redirectUri={window.location.origin}>
     <App />
   </Auth0Provider>,
   document.getElementById('root')
