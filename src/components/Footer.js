@@ -52,10 +52,10 @@ export default function Footer({ darkmode }) {
         </section>
         <MDBRow>
           <MDBCol lg='12' md='12' className='mb-8 mb-md-0'>
-            <h5 className={`text-uppercase ${darkmode ? 'text-light':'text-light'} `}>MD5 Hash</h5>
+            <h5 className={`text-uppercase ${darkmode ? 'text-light':'text-light'} `}>Cant Code</h5>
 
             <p className={darkmode ? 'text-light':'text-light'}>
-              Checks and converts MD5 hashes.
+              CantCode's Portfolio Website.
             </p>
           </MDBCol>
         </MDBRow>
