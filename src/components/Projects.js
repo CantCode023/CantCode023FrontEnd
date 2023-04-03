@@ -8,11 +8,11 @@ export default function Projects({ darkmode }) {
         <div className="row">
             <div style={{display: "flex", justifyContent: "center", marginBottom: "2rem"}} className="col">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/mdhash.jpg"/>
+                    <Card.Img variant="top" src="/AsposeCompressor.png"/>
                     <Card.Body>
-                        <Card.Title>MDHash</Card.Title>
-                        <Card.Text>A website to check and generate MD5 hashes.</Card.Text>
-                        <Button href="https://github.com/CantCode023/MD5HashFrontend" variant="primary">Go to project</Button>
+                        <Card.Title>Aspose Compressor</Card.Title>
+                        <Card.Text>Python package to compress video with 10% compression size.</Card.Text>
+                        <Button href="https://github.com/CantCode023/aspose_compressor" variant="primary">Go to project</Button>
                     </Card.Body>
                 </Card>
             </div>
@@ -28,11 +28,11 @@ export default function Projects({ darkmode }) {
             </div>
             <div style={{display: "flex", justifyContent: "center", marginBottom: "2rem"}} className="col">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="/ImageCarousel.jpg"/>
+                    <Card.Img variant="top" src="/ScrapingThunder.png"/>
                     <Card.Body>
-                        <Card.Title>Image Carousel</Card.Title>
-                        <Card.Text>An image carousel made from scratch.</Card.Text>
-                        <Button href="https://github.com/CantCode023/ImageCarousel" variant="primary">Go to project</Button>
+                        <Card.Title>Scraping Thunder</Card.Title>
+                        <Card.Text>Scrape paid APIs like <a href="https://haveibeenpwned.com">https://haveibeenpwned.com</a> without paying a single penny!</Card.Text>
+                        <Button href="https://github.com/CantCode023/ScrapingThunder" variant="primary">Go to project</Button>
                     </Card.Body>
                 </Card>
             </div>
